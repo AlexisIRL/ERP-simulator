@@ -5,6 +5,7 @@ CREATE TABLE condiciones_pago (
     dias INT NOT NULL CHECK (dias >= 0)
 );
 
+
 -- 2. Catálogo de Impuestos
 CREATE TABLE impuestos (
     id_impuesto SERIAL PRIMARY KEY,
