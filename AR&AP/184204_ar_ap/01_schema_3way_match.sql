@@ -115,4 +115,3 @@ CREATE TABLE IF NOT EXISTS cobro_aplicacion (
 CREATE INDEX IF NOT EXISTS idx_fp_estatus_saldo ON facturas_proveedor (estatus, saldo);
 CREATE INDEX IF NOT EXISTS idx_fc_estatus_saldo ON facturas_cliente (estatus, saldo);
 CREATE INDEX IF NOT EXISTS idx_oc_linea_lookup ON oc_linea (oc_id, articulo);
-CREATE INDEX IF NOT EXISTS idx_oc_linea_lookup ON oc_linea (oc_id, articulo);
