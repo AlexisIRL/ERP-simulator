@@ -32,5 +32,3 @@ RETURN
   (fac.precio_unitario = oc.precio_unitario AND fac.cantidad_facturada <= rec.cantidad_recibida) AS match_3_vias_valido,
   fac.estatus AS estatus_factura,
   pag.pago_id AS pago_asociado;
-
-  pag.pago_id AS pago_asociado;
